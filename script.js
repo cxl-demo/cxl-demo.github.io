@@ -28,8 +28,8 @@ var users = [
 //验证email与密码是否正确
 const btn =document.getElementById("validate");
 btn.addEventListener("click", () => {
-var email = document.getElementById('email');
-var password = document.getElementById('password');
+var email = document.getElementById('email').value;
+var password = document.getElementById('password').value;
 
   // 遍历数组中的每个用户信息，进行匹配
   for (var i = 0; i < users.length; i++) {
