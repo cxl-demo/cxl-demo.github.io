@@ -35,10 +35,12 @@ var password = document.getElementById('password');
   for (var i = 0; i < users.length; i++) {
     if (users[i].email === email && users[i].password === password) {
       // 如果找到了匹配的用户信息，返回true
-      alert('登录成功')
+      alert('登录成功');
+      console.log('登陆成功')
     }
   }
 
   // 如果循环结束后还没有找到匹配的用户信息，返回false
   alert('输出的邮箱或密码有错误')
+  console.log('登陆失败')
 }
