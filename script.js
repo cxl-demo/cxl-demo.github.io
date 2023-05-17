@@ -26,8 +26,7 @@ var users = [
 
 
 //验证email与密码是否正确
-function validate() {
-
+document.getElementById("validate").addEventListener("click", () => {
 var email = document.getElementById('email');
 var password = document.getElementById('password');
 
@@ -43,4 +42,4 @@ var password = document.getElementById('password');
   // 如果循环结束后还没有找到匹配的用户信息，返回false
   alert('输出的邮箱或密码有错误')
   console.log('登陆失败')
-}
+})
