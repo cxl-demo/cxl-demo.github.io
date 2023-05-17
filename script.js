@@ -26,7 +26,8 @@ var users = [
 
 
 //验证email与密码是否正确
-document.getElementById("validate").addEventListener("click", () => {
+const btn =document.getElementById("validate");
+btn.addEventListener("click", () => {
 var email = document.getElementById('email');
 var password = document.getElementById('password');
 
