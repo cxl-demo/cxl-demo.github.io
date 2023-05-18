@@ -1,0 +1,5 @@
+[
+    { "username": "张三", "email": "123@qq.com", "password": "123456" },
+    { "username": "李四", "email": "456@qq.com", "password": "654321" },
+    { "username": "王五", "email": "789@qq.com", "password": "abcdef" }
+]
